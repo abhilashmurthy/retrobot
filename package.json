@@ -2,6 +2,7 @@
   "name": "retrobot",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "private": true,
   "engines": {
     "node": 6
   },
@@ -20,8 +21,10 @@
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "clarify": "^1.0.5",
     "debug": "^2.2.0",
+    "redis": "^2.6.5",
     "slack": "^7.5.7",
     "undefsafe": "^1.1.0"
   },
